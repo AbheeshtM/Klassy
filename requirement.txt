@@ -1,26 +1,26 @@
 # Core
-numpy==1.26.5
-scipy==1.12.2
-pytz==2025.9
-requests==2.31.0
-jsonschema==4.19.0
+numpy>=1.25,<1.27
+scipy>=1.12,<1.13
+pytz>=2025.9
+requests>=2.31,<3.0
+jsonschema>=4.19,<5.0
 
 # FastAPI / cloud API
-fastapi==0.111.1
-uvicorn[standard]==0.23.2
-pydantic==2.5.1
+fastapi>=0.111,<0.112
+uvicorn[standard]>=0.23,<0.24
+pydantic>=2.5,<2.6
 
 # Machine Learning / NLP
-torch==2.2.0
-sentence-transformers==2.2.2
-groq==0.3.0
+torch>=2.2,<2.3
+sentence-transformers>=2.2,<2.3
+groq>=0.3,<0.4
 
 # Speech recognition / STT
-vosk==0.3.58
-sounddevice==0.4.9
+vosk>=0.3.58,<0.4
+sounddevice>=0.4.9,<0.5
 
 # TTS
-pyttsx3==2.90
+pyttsx3>=2.90,<3.0
 
 # Keyboard listener
-keyboard==0.24.0
+keyboard>=0.24,<0.25
