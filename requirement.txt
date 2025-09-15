@@ -1,6 +1,6 @@
 # Core
 numpy>=1.25,<1.27
-pytz>=2025.9
+pytz>=2024.0,<2025
 requests>=2.31
 jsonschema>=4.19
 
@@ -16,3 +16,4 @@ groq>=0.3
 
 # TTS (server-side, if needed for responses)
 pyttsx3>=2.90
+
