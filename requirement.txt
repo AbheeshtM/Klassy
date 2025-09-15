@@ -1,18 +1,19 @@
 # Core
 numpy>=1.25,<1.27
+scipy>=1.12,<1.13
 pytz>=2024.0,<2025
-requests>=2.31,<3
-jsonschema>=4.19,<5
+requests>=2.31
+jsonschema>=4.19
 
 # FastAPI / web service
-fastapi>=0.111,<0.117
-uvicorn[standard]>=0.23,<0.36
-pydantic>=2.5,<3
+fastapi>=0.111
+uvicorn[standard]>=0.23
+pydantic>=2.5
 
 # Machine Learning / NLP
-torch>=2.5,<2.9
-sentence-transformers>=2.2,<3
-groq>=0.3,<1
+torch>=2.2,<2.3
+sentence-transformers>=2.2,<2.3
+groq>=0.3
 
 # TTS (server-side)
-pyttsx3>=2.90,<3
+pyttsx3>=2.90
