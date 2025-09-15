@@ -5,12 +5,15 @@ pytz>=2025.9
 requests>=2.31
 jsonschema>=4.19
 
-# FastAPI / cloud API
+# FastAPI / web service
 fastapi>=0.111
 uvicorn[standard]>=0.23
 pydantic>=2.5
 
 # Machine Learning / NLP
-torch>=2.2
-sentence-transformers>=2.2
-groq>=0.3.0
+torch>=2.2,<2.3
+sentence-transformers>=2.2,<2.3
+groq>=0.3
+
+# TTS (server-side, if needed for responses)
+pyttsx3>=2.90
